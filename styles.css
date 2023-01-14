@@ -209,3 +209,45 @@ article{
     font-weight: 600;
     font-size: 20px;
 }
+
+/*---------------------------------------------
+             Sponsor Section Style
+---------------------------------------*/
+.sponsor{
+    max-width: 1440px;
+    margin: auto;
+}
+.sponsor-header{
+    max-width: 542px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 180px;
+}
+
+.sponsor-header h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsor-logo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    mix-blend-mode:luminosity;
+}
+
+/*-------------------------------------------------
+             Footer Section Style 
+   --------------------------------------------*/
+   footer h4{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 130px;
+    margin-bottom: 215px;
+   }
