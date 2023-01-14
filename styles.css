@@ -112,3 +112,100 @@ header{
 #feature-list-text{
     margin-bottom: 30px;
 }
+
+/*------------------------------------------------
+          Enjoyable Feature Styles
+------------------------------------------ */
+.enjoyable-feature{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.enjoyable-feature-title{
+    border-left: 8px solid #FF900E;
+    padding-left: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    max-width: 468px;
+    margin-bottom: 30px;
+}
+
+#enjoyable-feature-text{
+    margin-bottom: 30px;
+}
+
+.enjoyable-feature .general-text, article{
+    max-width: 586px;
+}
+
+article{
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.article-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.primary-btn #exp-btn{
+    padding: 45px 42px;
+}
+.primary-btn #experience-bold{
+    font-size: 65px;
+    font-weight: 700;
+}
+.primary-btn #experience-normal{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*------------------------------------
+         Fact Section Style 
+--------------------------------*/
+
+.fact{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#fact-text{
+    max-width: 542px;
+}
+
+.fact-boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+}
+.fact-box{
+    max-width: 241px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.fact-box img{
+    margin-top: 45px;
+}
+.fact-box h3{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.fact-box .general-text{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 20px;
+}
