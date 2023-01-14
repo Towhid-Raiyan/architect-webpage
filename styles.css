@@ -210,6 +210,45 @@ article{
     font-size: 20px;
 }
 
+/*----------------------------------------
+           Popular Projects Styles 
+  ------------------------------------*/
+.popular-project{
+    max-width: 1440px;
+    margin: auto;
+}
+.popular-project-header{
+    margin-top: 130px;
+    margin-bottom: 70px;
+    max-width: 450px;
+}
+.popular-project-header h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+
+.project{
+    max-width: 360px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px 20px 20px 30px;
+}
+
+.project h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.project p{
+    max-width: 320px;
+}
+
 /*---------------------------------------------
              Sponsor Section Style
 ---------------------------------------*/
@@ -230,7 +269,7 @@ article{
     font-weight: 700;
     margin-bottom: 24px;
 }
-.sponsor-logo {
+.sponsor-logo{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     mix-blend-mode:luminosity;
