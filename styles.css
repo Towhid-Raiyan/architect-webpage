@@ -1,14 +1,15 @@
 /* ---------------------------------
            Common Styles
 -------------------------------- */
-*{
+* {
     font-family: 'Work Sans', sans-serif;
 }
 
-main{
+main {
     background-color: #ffffff;
 }
-.primary-btn{
+
+.primary-btn {
     background-color: #FF900E;
     color: #ffffff;
     padding: 20px 25px;
@@ -18,7 +19,7 @@ main{
     font-size: 20px;
 }
 
-.general-text{
+.general-text {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -27,54 +28,63 @@ main{
 /* ----------------------------------
             Header Styles
 -------------------------------- */
-header{
+header {
     background-color: rgba(255, 144, 14, 0.1);
 }
-.header-display{
+
+.header-display {
     max-width: 1440px;
     margin: auto;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: 700;
     color: #131313;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     width: 470px;
     justify-content: space-between;
     color: #424242;
     font-size: 18px;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner-top{
+
+.banner-top {
     max-width: 862px;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
     font-size: 64px;
     font-weight: 700;
     color: #131313;
     text-align: center;
     margin-bottom: 35px;
 }
-.banner-text{
+
+.banner-text {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
     text-align: center;
     margin-bottom: 30px;
 }
-.banner-img{
+
+.banner-img {
     margin-top: 50px;
     margin-bottom: 45px;
 }
@@ -82,7 +92,7 @@ header{
 /*-----------------------------------------
           Feature List Styles
 -------------------------------------- */
-.feature-list{
+.feature-list {
     max-width: 1440px;
     display: flex;
     align-items: center;
@@ -91,40 +101,44 @@ header{
     margin-bottom: 130px;
 }
 
-.feature-list-img img{
+.feature-list-img img {
     margin: 20px;
 }
-.feature-list-info{
+
+.feature-list-info {
     max-width: 537px;
 }
 
-.feature-list-title{
+.feature-list-title {
     color: #131313;
     font-size: 45px;
     margin-bottom: 24px;
 }
-.feature-list-title #light{
+
+.feature-list-title #light {
     color: #727272;
 }
-.feature-list-title #orange{
-    color:#FF900E;
+
+.feature-list-title #orange {
+    color: #FF900E;
 }
-#feature-list-text{
+
+#feature-list-text {
     margin-bottom: 30px;
 }
 
 /*------------------------------------------------
           Enjoyable Feature Styles
 ------------------------------------------ */
-.enjoyable-feature{
+.enjoyable-feature {
     max-width: 1440px;
     display: flex;
     align-items: center;
     margin: auto;
-    justify-content: space-between;
     margin-bottom: 130px;
 }
-.enjoyable-feature-title{
+
+.enjoyable-feature-title {
     border-left: 8px solid #FF900E;
     padding-left: 20px;
     font-size: 45px;
@@ -133,35 +147,44 @@ header{
     margin-bottom: 30px;
 }
 
-#enjoyable-feature-text{
+#enjoyable-feature-text {
     margin-bottom: 30px;
 }
 
-.enjoyable-feature .general-text, article{
+.enjoyable-feature .general-text, article {
     max-width: 586px;
 }
 
-article{
+article {
     padding: 30px 42px 30px 30px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
 }
-.article-title{
+
+.article-title {
     font-size: 20px;
     font-weight: 600;
     color: #131313;
     margin-bottom: 10px;
 }
 
-.primary-btn #exp-btn{
+.enjoy-feature-experience div {
+    max-height: 890px;
+    margin-left: 130px;
+}
+
+.enjoy-feature-experience .primary-btn#exp-btn {
+    margin-left: 46px;
     padding: 45px 42px;
 }
-.primary-btn #experience-bold{
+
+.primary-btn #experience-bold {
     font-size: 65px;
     font-weight: 700;
 }
-.primary-btn #experience-normal{
+
+.primary-btn #experience-normal {
     font-size: 25px;
     font-weight: 500;
 }
@@ -170,40 +193,46 @@ article{
          Fact Section Style 
 --------------------------------*/
 
-.fact{
+.fact {
     max-width: 1440px;
     margin: auto;
 }
 
-.fact-title{
+.fact-title {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-#fact-text{
+
+#fact-text {
     max-width: 542px;
 }
 
-.fact-boxes{
+.fact-boxes {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 100px;
+    justify-items: center;
 }
-.fact-box{
+
+.fact-box {
     width: 241px;
     text-align: center;
-    border: 1px solid #FF900E;
+    border: 2px solid #FF900E;
     border-radius: 8px;
 }
-.fact-box img{
+
+.fact-box img {
     margin-top: 45px;
 }
-.fact-box h3{
+
+.fact-box h3 {
     font-size: 45px;
     font-weight: 600;
     margin: 0;
 }
-.fact-box .general-text{
+
+.fact-box .general-text {
     margin-top: 10px;
     margin-bottom: 60px;
     font-weight: 600;
@@ -213,52 +242,58 @@ article{
 /*----------------------------------------
            Popular Projects Styles 
   ------------------------------------*/
-.popular-project{
+.popular-project {
     max-width: 1440px;
     margin: auto;
 }
-.popular-project-header{
+
+.popular-project-header {
     margin-top: 130px;
     margin-bottom: 70px;
     max-width: 450px;
 }
-.popular-project-header h2{
+
+.popular-project-header h2 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
 }
 
-.projects{
+.projects {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
 }
 
-.project{
+.project {
     max-width: 360px;
     border-radius: 8px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     padding: 20px 20px 20px 30px;
 }
-.project img{
+
+.project img {
     border-radius: 8px;
 }
-.project h3{
+
+.project h3 {
     font-size: 25px;
     font-weight: 600;
 }
-.project p{
+
+.project p {
     max-width: 320px;
 }
 
 /*---------------------------------------------
              Sponsor Section Style
 ---------------------------------------*/
-.sponsor{
+.sponsor {
     max-width: 1440px;
     margin: auto;
 }
-.sponsor-header{
+
+.sponsor-header {
     max-width: 542px;
     text-align: center;
     margin: auto;
@@ -266,21 +301,23 @@ article{
     margin-top: 180px;
 }
 
-.sponsor-header h3{
+.sponsor-header h3 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-.sponsor-logo{
+
+.sponsor-logo {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    mix-blend-mode:luminosity;
+    grid-template-columns: repeat(5, 1fr);
+    mix-blend-mode: luminosity;
+    justify-items: center;
 }
 
 /*-------------------------------------------------
              Footer Section Style 
    --------------------------------------------*/
-   footer h4{
+footer h4 {
     max-width: 1440px;
     margin: auto;
     background-color: #FFF4E7;
@@ -291,76 +328,93 @@ article{
     padding-bottom: 40px;
     margin-top: 130px;
     margin-bottom: 215px;
-   }
+}
+
 /*-----------------------------------------
            Mouse Hovering Style 
    -----------------------------------*/
-   .nav-bar p:hover{
-     translate: -5px -5px;
-     color: #FF900E;
-     font-weight: 700;
-   }
-   .primary-btn:hover{
-    translate: 5px -5px;
-   }
-   .fact-box:hover{
-        border: 1px solid rgb(9, 239, 212);
-        translate: 5px -20px;
-        background-color: rgba(255, 144, 14, 0.1);
-   }
-   .project:hover{
-    translate: -5px -5px;
-    border: 3px solid rgb(11, 251, 11);
-   }
-   
+.nav-bar p:hover {
+    transform: scale(1.2);
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.primary-btn:hover {
+    transform: scale(1.1);
+}
+
+.fact-box:hover {
+    border: 2px solid rgb(9, 239, 212);
+    transform: scale(1.2);
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.project:hover {
+    transform: scale(1.1);
+    border: 1px solid rgb(11, 251, 11);
+}
+
 /*---------------------------------------------------
               Responsiveness Style 
     ------------------------------------------*/
 
-    /*----------------------------------------------
+/*----------------------------------------------
              Mobile Responsiveness 
        -----------------------------------------*/
 
-@media screen and (max-width:576px){
+@media only screen and (max-width:576px) {
+
     /* Header section */
-    .navigation{
+    .navigation {
         flex-direction: column;
     }
-    .nav-bar{
+
+    .nav-bar {
         flex-direction: column;
         align-items: center;
     }
-    .banner-img{
+
+    .banner-img {
         width: 95%;
     }
+
     /* Feature list section */
-    .feature-list{
+    .feature-list {
         flex-direction: column;
     }
+
     /* Enjoyable Feature Styles */
-    .enjoyable-feature{
+    .enjoyable-feature {
         flex-direction: column;
     }
-    .enjoy-feature-experience img{
+
+    .enjoy-feature-experience div {
+        margin: auto;
+    }
+
+    .enjoy-feature-experience img {
         width: 100%;
         margin-bottom: 20px;
     }
+
     /* fact section */
-    .fact-boxes{
-        grid-template-columns: repeat(1,1fr);
+    .fact-boxes {
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 10px;
         margin: auto;
         justify-items: center;
     }
+
     /* Popular Projects */
-    .projects{
-        grid-template-columns: repeat(1,1fr);
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 10px;
     }
+
     /* sponsor style */
-    .sponsor-logo{
-        grid-template-columns: repeat(1,1fr);
+    .sponsor-logo {
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
         justify-items: center;
-    }   
+    }
 }
